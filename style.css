@@ -1,0 +1,78 @@
+/* sfondo */
+body {
+  background-image: url('immagini/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: arial;
+  color: white;
+  margin-top: 50px;
+}
+
+/* rettangolo con trasparenza */
+.transparency {
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  height: 600px;
+  padding: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* testo centrato per header e nav */
+header, nav {
+  text-align: center;
+}
+
+/* modifiche alla grandezza del logo */
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+/* stile del titolo */
+h1 {
+  color: rgb(92, 215, 52);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* stile della sezione nav */
+nav {
+  background-color: rgb(92, 215, 52);
+  line-height: 15px;
+  padding: 15px;
+}
+
+/* stile della sezione main */
+main {
+  margin-top: 20px;
+}
+
+/* altezza righe dei tre div */
+.gino22, .mike24, .fede154 {
+  line-height: 25px;
+}
+
+/* altezza e angoli arrotondati per tutte e tre le cariche */
+.carica.gino22, .carica.mike24, .carica.fede154 {
+  height: 30px;
+  border-radius: 5px;
+}
+
+/* colore e larghezza carica gino */
+.carica.gino22 {
+  background-color: rgb(237, 182, 95);
+  width: 300px;
+}
+
+/* colore e larghezza carica mike */
+.carica.mike24 {
+  background-color: rgb(88, 190, 85);
+  width: 500px;
+}
+
+/* colore e larghezza carica fede */
+.carica.fede154 {
+  background-color: rgb(178, 76, 78);
+  width: 130px;
+}
